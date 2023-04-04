@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public class RestController {
     @GetMapping("/rest")
-    public String sayHello(){
+    public String sayHello() {
         return "Say hello from Rest Controller";
     }
 }

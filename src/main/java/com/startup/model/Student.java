@@ -7,27 +7,17 @@ public class Student {
     private String lastName;
     private String gender;
     private String cnp;
-    private int streetNumber;
-    private String streetName;
-    private int apartmentNumber;
-    private String cityName;
-    private String county;
-    private int zipCode;
+    private String address;
 
     public Student() {
     }
 
-    public Student(String firstName, String lastName, String gender, String cnp, int streetNumber, String streetName, int apartmentNumber, String cityName, String county, int zipCode) {
+    public Student(String firstName, String lastName, String gender, String cnp, String address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
         this.cnp = cnp;
-        this.streetNumber = streetNumber;
-        this.streetName = streetName;
-        this.apartmentNumber = apartmentNumber;
-        this.cityName = cityName;
-        this.county = county;
-        this.zipCode = zipCode;
+        this.address = address;
     }
 
     public String getFirstName() {
@@ -62,51 +52,11 @@ public class Student {
         this.cnp = cnp;
     }
 
-    public int getStreetNumber() {
-        return streetNumber;
+    public String getAddress() {
+        return address;
     }
 
-    public void setStreetNumber(int streetNumber) {
-        this.streetNumber = streetNumber;
-    }
-
-    public String getStreetName() {
-        return streetName;
-    }
-
-    public void setStreetName(String streetName) {
-        this.streetName = streetName;
-    }
-
-    public int getApartmentNumber() {
-        return apartmentNumber;
-    }
-
-    public void setApartmentNumber(int apartmentNumber) {
-        this.apartmentNumber = apartmentNumber;
-    }
-
-    public String getCityName() {
-        return cityName;
-    }
-
-    public void setCityName(String cityName) {
-        this.cityName = cityName;
-    }
-
-    public String getCounty() {
-        return county;
-    }
-
-    public void setCounty(String county) {
-        this.county = county;
-    }
-
-    public int getZipCode() {
-        return zipCode;
-    }
-
-    public void setZipCode(int zipCode) {
-        this.zipCode = zipCode;
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

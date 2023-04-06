@@ -6,7 +6,7 @@ public class Teacher {
     private String firstName;
     private String lastName;
     private String gender;
-    private int cnp;
+    private long cnp;
     private String address;
     private String phoneNumber;
     private String email;
@@ -14,7 +14,7 @@ public class Teacher {
     public Teacher(){}
 
     public Teacher(long teacherId, String firstName, String lastName, String gender,
-                   int cnp, String address, String phoneNumber, String email){
+                   long cnp, String address, String phoneNumber, String email){
         this.teacherId = teacherId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -57,11 +57,11 @@ public class Teacher {
         this.gender = gender;
     }
 
-    public int getCnp() {
+    public long getCnp() {
         return cnp;
     }
 
-    public void setCnp(int cnp) {
+    public void setCnp(long cnp) {
         this.cnp = cnp;
     }
 

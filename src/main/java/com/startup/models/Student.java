@@ -1,4 +1,4 @@
-package com.startup.model;
+package com.startup.models;
 
 public class Student {
 
